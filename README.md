@@ -2,7 +2,7 @@
 
 This challenge is part of the [RocketSeat](https://rocketseat.com.br/) GoStack Bootcamp.
 
-This is a small application using Node.JS and TypeScript, using ```typeorm``` to handle database manipulation and ```multer``` to deal with files import.
+This is a small application using Node.JS and TypeScript, using ```typeorm``` to handle database manipulation and ```multer``` to deal with file import.
 
 The application stores inbound and outbound financial transactions, allowing the user to create new transactions, list them all and import them via CSV file.
 
@@ -88,7 +88,7 @@ The application stores inbound and outbound financial transactions, allowing the
 
 ## Tests
 
-⚠️ Before running the tests, a database named "gostack_desafio06_tests" must be created. ⚠️
+Before running the tests, a database named "gostack_desafio06_tests" must be created. ⚠️
 
 - **`should be able to create a new transaction`**: In order to pass this test, the application must allow the creation of a new transaction, returning the json object of the new transaction.
 
